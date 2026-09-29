@@ -29,6 +29,10 @@ const productSchema = new mongoose.Schema(
     expirationDate: {
       type: Date,
       required: true
+    },
+    active: {
+      type: Boolean,
+      default: true
     }
   },
   {
